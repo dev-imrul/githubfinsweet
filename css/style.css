@@ -1,0 +1,335 @@
+/* ======Common CSS Start====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+/* ======Common CSS End====== */
+/* ======Navbar Start====== */
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    /* padding-right: var(--bs-navbar-nav-link-padding-x); */
+    /* padding-left: var(--bs-navbar-nav-link-padding-x); */
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #BBBBCB;
+    transition: all linear 0.4s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: white;
+    background: #2b2d9e;
+    border-radius: 2px solid white;
+    border-radius: 20px;
+}
+
+.nav-button {
+    border: 2px solid white;
+    border-radius: 50px;
+
+}
+
+.nav-button button {
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    background: none;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    transition: all linear 0.4s;
+
+}
+
+.nav-button button:hover {
+    background: white;
+    color: #1C1E53;
+}
+
+/* ======Navbar End====== */
+/* ======Banner CSS Start====== */
+#banner-part {
+    padding: 240px 0px 160px 0px;
+    background: #1C1E53;
+
+    color: white;
+}
+
+.banner-left-part h1 {
+    color: var(--white, #FFF);
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+.banner-left-part p {
+    color: var(--white, #FFF);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 562px;
+
+}
+
+
+
+
+.banner-left-part-button-and-text button {
+    padding: 16px 56px;
+    width: 310px;
+    border-radius: 41px;
+    background: #FCD980;
+    margin-right: 40px;
+    color: #1B1C2B;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    transition: all linear 0.4s;
+
+}
+
+.banner-left-part-button-and-text button:hover {
+    background: #ffffff;
+}
+
+
+
+
+
+.banner-left-part-button-and-text a {
+    color: var(--white, #FFF);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* ======Banner CSS End====== */
+/* ======work-part Start====== */
+#work-part {
+    background: var(--grey, #F4F6FC);
+    padding: 128px 0px;
+}
+
+.work-left-part h3 {
+    color: var(--dark-blue, #282938);
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.work-left-part p {
+    color: var(--dark-blue, #282938);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 380px;
+
+    opacity: 0.699999988079071;
+}
+
+.work-left-part a {
+    color: var(--royal-blue, #2405F2);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.work-left-part i {
+    color: var(--royal-blue, #2405F2);
+}
+
+.cards {
+    width: 440px;
+}
+
+
+.cards h3 {
+    color: var(--dark-blue, #282938);
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.cards p {
+    color: var(--dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.699999988079071;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======work-part End====== */
+
+
+
+/*======Our Projects CSS Start====== */
+
+#our-projects {
+    padding: 128px 0px;
+}
+
+.our-projects-headline {
+    padding-bottom: 64px;
+}
+
+.our-projects-headline h3 {
+    color: var(--dark-blue, #282938);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.a-and-i-wrapper a {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-right: 9px;
+}
+
+.a-and-i-wrapper i {
+    color: #282938;
+
+}
+
+.our-project-left-part {
+    background: url(../images/our-project-left-part-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: auto;
+    height: 600px;
+}
+
+
+.left-first-part {
+    width: 396px;
+    height: 600px;
+    flex-shrink: 0;
+    padding-top: 312px;
+    background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
+    padding-left: 48px;
+}
+
+.left-first-part h4 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.left-first-part P {
+    color: var(--white, #FFF);
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.our-project-a-and-i-wrapper a {
+    color: var(--yellow, #FCD980);
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-right: 9px;
+}
+
+.our-project-a-and-i-wrapper i {
+    color: var(--yellow, #FCD980);
+}
+
+.left-second-part {
+    width: 447px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
+.left-second-part:hover {
+    background: linear-gradient(306deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
+
+}
+
+/* ======Our Projects CSS End====== */
+
+
+
+/* ======Common CSS Start====== */
+/* ======Common CSS End====== */
+
+
+
+/* ======Common CSS Start====== */
+/* ======Common CSS End====== */
